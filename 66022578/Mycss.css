@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: aliceblue;
+    padding: 3em;
+    background: skyblue;
+    text-align: center;
+}
+
+
+.topnav {
+    background-color: #707070;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.left_page{
+    background: deepskyblue;
+    width: 33%;
+}
+
+.left_page h1{
+    text-align: center;
+    color: blue;
+    margin: 5%;
+    font-size: x-large;
+}
+
+.left_page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.left_page a {
+    padding: 10px;
+    display: block;
+    color: aliceblue;
+    font-size: large;
+}
+
+.body_page{
+    background: violet;
+    width: 33%;
+}
+
+.body_page h1{
+    text-align: center;
+    color: blue;
+    margin: 5%;
+    font-size: x-large;
+}
+
+.body_page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.body_page ul {
+    list-style: none;
+}
+
+.body_page a {
+    padding: 10px;
+    display: block;
+    color: aliceblue;
+    font-size: large;
+}
+
+.right_page{
+    background: salmon;
+    width: 33%;
+}
+
+.right_page h1{
+    text-align: center;
+    color: blue;
+    margin: 5%;
+    font-size: x-large;
+}
+
+.right_page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.right_page ul {
+    list-style: none;
+}
+
+.right_page a {
+    padding: 10px;
+    display: block;
+    color: aliceblue;
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+    background: rgb(45, 255, 237);
+    padding: 10px;
+}
